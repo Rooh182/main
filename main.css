@@ -90,7 +90,7 @@ aside> h2{
     color: blue;
 }
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 300px){
     .wrapper {
       flex-direction: row;
     }
