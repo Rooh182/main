@@ -1,0 +1,130 @@
+header { 
+    height: 250px;
+    color: white;
+}
+
+#fireworks {
+    width: 100%;
+    height: 250px;
+    position: absolute;
+}
+
+nav {
+    position: absolute;
+}
+
+a {
+    color: rgb(252, 22, 10);
+}
+
+
+header> h1 {
+    font-family: cursive;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 6px;
+}
+
+
+main {
+    width: 100%;
+    height: 300px;
+    background-color: burlywood;
+    padding: 10px;
+    margin: 6px;
+
+}
+
+main> img {
+    width: 100px;
+    float: left;
+    margin: 10px;
+}
+
+main> h2 {
+    font-family: cursive, sans-serif;
+    font-style: italic;
+}
+
+.sect {
+    width: 100%;
+    height: 500px;
+    background-color: beige;
+    padding: 10px;
+    margin: 6px;
+
+    
+}
+
+.sect> h2 {
+    color: red;
+    font-family: cursive, sans-serif;
+    font-style: italic;
+}
+.sect> img {
+    width: 200px;
+    float: left;
+    margin: 10px;
+}
+
+
+aside {
+    width: 100%;
+    height: 300px;
+    background-color: chocolate;
+    padding: 10px;
+    margin: 6px;
+}
+aside> img {
+    width: 150px;
+    float: left;
+    margin: 10px;
+}
+
+aside> h2{
+    font-family: cursive, sans-serif;
+    font-style: italic;
+    color: blue;
+}
+
+@media screen and (min-width: 600px){
+    .wrapper {
+      flex-direction: row;
+    }
+    main {
+        width: 25%;
+        height: 750px;
+    }
+
+    .sect {
+      width: 50%;
+      height: 750px;
+     }
+    aside {
+      width: 25%;
+      height: 750px;
+      color: white;
+    }
+
+   
+    
+}
+
+footer {
+    position: sticky;
+    width: 150px;
+    height: 25px;
+    border: 1px solid blue;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
